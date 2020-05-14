@@ -3,7 +3,7 @@ import json
 
 from fdk import response
 
-directors_dict = ({"Psycho": "Alfred Hitchcock", "Batman": "Tim Burton", "Alien": "Ridley Scott", "Cats": "Tom Hooper"})
+directors_dict = ({"Psycho": "Alfred Hitchcock", "Batman": "Tim Burton", "Alien": "Ridley Scott", "Cats": "Tom Hooper", "Smiles": "Leah Bracken"})
 
 def handler(ctx, data: io.BytesIO=None):
     movie = "Psycho"
